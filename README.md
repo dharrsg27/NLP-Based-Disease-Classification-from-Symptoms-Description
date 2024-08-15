@@ -10,8 +10,8 @@ This repository provides implementations for disease classification from symptom
 
 The dataset consists of 1200 data compiled into a csv file with two columns: "label" and "text".
 
-label : contains the disease labels
-text : contains the natural language symptom descriptions.
+- label : contains the disease labels
+- text : contains the natural language symptom descriptions.
 
 The following 24 diseases are included in the dataset:
 
