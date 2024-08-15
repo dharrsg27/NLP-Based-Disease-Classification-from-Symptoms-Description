@@ -20,6 +20,8 @@ The following 24 diseases are included in the dataset:
 
 Psoriasis, Varicose Veins, Typhoid, Chicken pox, Impetigo, Dengue, Fungal infection, Common Cold, Pneumonia, Dimorphic Hemorrhoids, Arthritis, Acne, Bronchial Asthma, Hypertension, Migraine, Cervical spondylosis, Jaundice, Malaria, urinary tract infection, allergy, gastroesophageal reflux disease, drug reaction, peptic ulcer disease, diabetes
 
+The dataset can be obtained from: https://www.kaggle.com/datasets/niyarrbarman/symptom2disease
+
 ## Workflow
 1. Exploratory Data Analysis
    - Analyzed the frequency distribution of every disease
