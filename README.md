@@ -2,9 +2,12 @@
 
 This repository provides implementations for disease classification from symptom descriptions using two different approaches:
 
-1. **TF-IDF + KNN Classification**: Utilizes Term Frequency-Inverse Document Frequency (TF-IDF) for feature extraction and a K-Nearest Neighbors (KNN) classifier for disease prediction.
+1. **TF-IDF + KNN Classification**:
+   - TF-IDF (Term Frequency-Inverse Document Frequency) is a statistical measure used to evaluate the importance of a word in a document relative to a collection of documents (corpus). It transforms text data into numerical features by weighing terms based on their frequency and importance.
+   - KNN (K-Nearest Neighbors) is a simple, instance-based learning algorithm. It classifies new data points based on the majority label of its k nearest neighbors in the feature space. When used with TF-IDF features, KNN classifies text documents based on their similarity to training examples.
 
-2. **Fine-Tuned BERT Model**: Implements a fine-tuned BERT (Bidirectional Encoder Representations from Transformers) model for classification, leveraging advanced deep learning techniques.
+2. **Fine-Tuned BERT Model**:
+   - BERT (Bidirectional Encoder Representations from Transformers) is a state-of-the-art transformer-based model developed by Google. It uses a deep learning architecture to understand the context of words in a sentence by looking at both their left and right contexts. BERT is pre-trained on large text corpora and can be fine-tuned for specific tasks like text classification, making it highly effective at capturing contextual relationships and nuances in text data.
 
 ## Dataset Description
 
