@@ -4,7 +4,7 @@ This repository provides implementations for disease classification from symptom
 
 1. **TF-IDF + KNN Classification**: Utilizes Term Frequency-Inverse Document Frequency (TF-IDF) for feature extraction and a K-Nearest Neighbors (KNN) classifier for disease prediction.
 
-2.. **Fine-Tuned BERT Model**: Implements a fine-tuned BERT (Bidirectional Encoder Representations from Transformers) model for classification, leveraging advanced deep learning techniques.
+2. **Fine-Tuned BERT Model**: Implements a fine-tuned BERT (Bidirectional Encoder Representations from Transformers) model for classification, leveraging advanced deep learning techniques.
 
 ## Dataset Description
 
