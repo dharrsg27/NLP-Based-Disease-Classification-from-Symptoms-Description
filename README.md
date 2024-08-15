@@ -1,6 +1,6 @@
 # Comparing NLP Methods for Disease Classification from Symptoms Description: TF-IDF + KNN vs Fine-Tuned BERT Model
 
-This repository provides implementations for disease classification from symptom descriptions using two different approaches:
+This project aims to perform disease classification from symptom descriptions using two different approaches:
 
 1. **TF-IDF + KNN Classification**:
    - TF-IDF (Term Frequency-Inverse Document Frequency) is a statistical measure used to evaluate the importance of a word in a document relative to a collection of documents (corpus). It transforms text data into numerical features by weighing terms based on their frequency and importance.
