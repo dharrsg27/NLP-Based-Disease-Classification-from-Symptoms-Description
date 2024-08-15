@@ -43,8 +43,10 @@ The dataset can be obtained from: https://www.kaggle.com/datasets/niyarrbarman/s
 
 4. Model Evaluation
    - **TF-IDF + KNN Classification:** 
+
      **Accuracy:** 93.611%
    - **Fine-Tuned BERT Model:** 
+
      **Accuracy:** 98.056%
 
 The fine-tuned BERT model outperforms the TF-IDF + KNN approach, achieving an accuracy of 98.056% compared to 93.611% with the KNN classifier. This demonstrates the effectiveness of using state-of-the-art deep learning techniques, such as BERT, for complex text classification tasks. The BERT model's ability to understand context and nuances in symptom descriptions contributes to its higher accuracy.
