@@ -24,22 +24,22 @@ Psoriasis, Varicose Veins, Typhoid, Chicken pox, Impetigo, Dengue, Fungal infect
 
 2. Preprocessing (for the TF-IDF + KNN Classification)
    The text descriptions for each disease is preprocessed to prepare for the TF-IDF + KNN Classification in the following way:
-   a. Stopwords removal
-   b. Lemmatization
-   c. Punctuations removal and lowercasing of all texts
+   - Stopwords removal
+   - Lemmatization
+   - Punctuations removal and lowercasing of all texts
 
 3. NLP Model Creation
-   a. TF-IDF + KNN Classification:
+   - TF-IDF + KNN Classification:
       - Performed TF-IDF vectorization
       - Performed cross-validation with Grid Search to determine the best possible parameters for the KNN model
-   b. BERT Model:
+   - BERT Model:
       - Loaded pretrained BERT model
       - Fine-tuned parameters for the BERT model for optimal training
 
 4. Model Evaluation
-   - **TF-IDF + KNN Classification:**
+   - **TF-IDF + KNN Classification:** 
      **Accuracy:** 93.611%
-   - **Fine-Tuned BERT Model:**
+   - **Fine-Tuned BERT Model:** 
      **Accuracy:** 98.056%
 
 The fine-tuned BERT model outperforms the TF-IDF + KNN approach, achieving an accuracy of 98.056% compared to 93.611% with the KNN classifier. This demonstrates the effectiveness of using state-of-the-art deep learning techniques, such as BERT, for complex text classification tasks. The BERT model's ability to understand context and nuances in symptom descriptions contributes to its higher accuracy.
